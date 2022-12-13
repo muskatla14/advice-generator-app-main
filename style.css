@@ -74,7 +74,7 @@ body {
 
 .btn span {
     position: absolute;
-    display: none;
+    left: -1000px;
 }
 
 .icon {
