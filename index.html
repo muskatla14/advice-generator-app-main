@@ -3,29 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Advice generator app</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main class="main">
       <p class="num-of-advice">
-        Advice #117
+        Advice <span class="num"></span>
         <!-- Advice ID goes here -->
       </p>
-
-      <p class="advice-text">
-        "<!-- Advice text goes here -->
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempore
-      </p>
+      <p class="advice-text"><!-- Advice text goes here --></p>
       <img class="divider" src="./images/pattern-divider-desktop.svg" alt="" />
       <img
         style="display: none"
@@ -45,5 +38,6 @@
         >Marko Robovic</a
       >.
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
