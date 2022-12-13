@@ -86,7 +86,7 @@ body {
     box-shadow: 0 0px 22px var(--Neon-Green);
 }
 
-.attribution {
+.footer {
      color: var(--light-Cyan);
      font-size: 11px; text-align: center;
      position: fixed;
